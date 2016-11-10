@@ -1,6 +1,6 @@
 # GZUIImageHandle
 UIImage Category With Core Graphics</br>
-#####等比例缩放</br>
+####等比例缩放</br>
 `+ (UIImage *)scaleImage:(UIImage *)image toScale:(float)scale;`</br>
 
 ####自定义长宽</br>
