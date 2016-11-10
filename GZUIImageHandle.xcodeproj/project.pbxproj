@@ -13,6 +13,8 @@
 		22A2E5CD1DD446C500071E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A2E5CB1DD446C500071E1F /* Main.storyboard */; };
 		22A2E5CF1DD446C500071E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A2E5CE1DD446C500071E1F /* Assets.xcassets */; };
 		22A2E5D21DD446C500071E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A2E5D01DD446C500071E1F /* LaunchScreen.storyboard */; };
+		22A2E5DD1DD454C500071E1F /* apple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A2E5DC1DD454C500071E1F /* apple_logo.png */; };
+		22A2E5E11DD458AF00071E1F /* UIImage+UIImageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A2E5E01DD458AF00071E1F /* UIImage+UIImageHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		22A2E5CE1DD446C500071E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A2E5D11DD446C500071E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A2E5D31DD446C500071E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A2E5DC1DD454C500071E1F /* apple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_logo.png; sourceTree = "<group>"; };
+		22A2E5DF1DD458AF00071E1F /* UIImage+UIImageHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageHandle.h"; sourceTree = "<group>"; };
+		22A2E5E01DD458AF00071E1F /* UIImage+UIImageHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageHandle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 		22A2E5C11DD446C500071E1F /* GZUIImageHandle */ = {
 			isa = PBXGroup;
 			children = (
+				22A2E5DE1DD458AF00071E1F /* UIImage+UIImageHandle */,
+				22A2E5DC1DD454C500071E1F /* apple_logo.png */,
 				22A2E5C51DD446C500071E1F /* AppDelegate.h */,
 				22A2E5C61DD446C500071E1F /* AppDelegate.m */,
 				22A2E5C81DD446C500071E1F /* ViewController.h */,
@@ -77,6 +84,15 @@
 				22A2E5C31DD446C500071E1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22A2E5DE1DD458AF00071E1F /* UIImage+UIImageHandle */ = {
+			isa = PBXGroup;
+			children = (
+				22A2E5DF1DD458AF00071E1F /* UIImage+UIImageHandle.h */,
+				22A2E5E01DD458AF00071E1F /* UIImage+UIImageHandle.m */,
+			);
+			path = "UIImage+UIImageHandle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A2E5DD1DD454C500071E1F /* apple_logo.png in Resources */,
 				22A2E5D21DD446C500071E1F /* LaunchScreen.storyboard in Resources */,
 				22A2E5CF1DD446C500071E1F /* Assets.xcassets in Resources */,
 				22A2E5CD1DD446C500071E1F /* Main.storyboard in Resources */,
@@ -153,6 +170,7 @@
 				22A2E5CA1DD446C500071E1F /* ViewController.m in Sources */,
 				22A2E5C71DD446C500071E1F /* AppDelegate.m in Sources */,
 				22A2E5C41DD446C500071E1F /* main.m in Sources */,
+				22A2E5E11DD458AF00071E1F /* UIImage+UIImageHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
